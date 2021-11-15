@@ -1,5 +1,7 @@
 package MayChallenge;
 
+import com.sun.tools.javac.util.List;
+
 public class CardPoints {
 
     public static int maxScore(int[] cardPoints, int k) {
@@ -25,6 +27,7 @@ public class CardPoints {
     public static void main(String args[]) {
         int[] points = new int[]{11, 49, 100, 20, 86, 29, 72};
         System.out.println(maxScore(points, 4));
+        List.of(points);
     }
 }
 
